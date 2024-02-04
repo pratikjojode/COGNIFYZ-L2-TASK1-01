@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive webpage</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d25cfcce1c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header and navigation goes here -->
+    <header>
+      <div id="header">
+        <div id="navigation">
+          <div class="logo">P.J</div>
+          <nav>
+            <ul>
+              <li class="hide">home</li>
+              <li class="hide">work</li>
+              <li class="hide">contact</li>
+              <li><i class="fa-solid fa-bars" id="menu" onclick="showSideBar()"></i></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="heading-warpaar">
+          <h1>
+            Discover the power of visual expression as you navigate through our
+            user-friendly interface. Each image tells a unique story, capturing
+            moments frozen in time. Whether you're an art enthusiast, a
+            photography connoisseur, or simply seeking inspiration,
+          </h1>
+          <button>Connect</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- second nav -->
+    <nav>
+        <ul class="sidebar">
+           <li><i class="fa-solid fa-x" id="close" onclick="hideSideBar()"></i></li>
+            <li>home</li>
+            <li>work</li>
+            <li>contact</li>
+        </ul>
+    </nav>
+
+    <!-- work grid section -->
+
+    <section id="work-section">
+      <h1>Latest work</h1>
+      <div class="work-container">
+        <div class="container">
+          <div class="col-1">
+            <img src="IMAGES/pexels-pixabay-531880.png" alt="" />
+          </div>
+          <div class="col-1">
+            <img src="IMAGES/65b2058638cc1d71067fef42_thum.png" alt="" />
+          </div>
+          <div class="col-1">
+            <img src="IMAGES/65b2058638cc1d71067fef3b_fan.png" alt="" />
+          </div>
+          <div class="col-1">
+            <img src="IMAGES/65b2058638cc1d71067fef3e_human.jpg" alt="" />
+          </div>
+          <div class="col-1">
+            <img src="IMAGES/65b2058638cc1d71067fef3d_dribbble.png" alt="" />
+          </div>
+          <div class="col-1">
+            <img
+              src="IMAGES/65b2058638cc1d71067fef41_cthulu_van_v2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-1">
+            <img
+              src="IMAGES/65b2058638cc1d71067fef3c_sans_titre_-_17-01.png"
+              alt=""
+            />
+          </div>
+          <div class="col-1">
+            <img src="IMAGES/65b2058638cc1d71067fef40_astrav1 (1).jpg" alt="" />
+          </div>
+          <div class="col-1">
+            <img
+              src="IMAGES/65b2058638cc1d71067fef23_neighborhood.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <h2><a href="">View More!</a></h2>
+      </div>
+    </section>
+
+    <footer id="fotter">
+      <div class="fotter-text">
+        <h1>The Website is completly responsive!</h1>
+        <p>&copy; 2024 pratik jojode. All rights reserved.</p>
+        <div class="icons">
+          <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/feed/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
